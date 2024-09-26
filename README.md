@@ -1,6 +1,6 @@
  
 
-# :robot: Awesome Pre-Trained Vision Models for Motor Control and Robotics
+# :robot: Awesome Pre-Trained Visual Representations for Motor Control and Robot Learning
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/> <img src="https://img.shields.io/badge/Number%20of%20Items-19-FF6F00" alt="PaperNum"/>
 
@@ -9,124 +9,119 @@
 Pre-trained visual representations (PVRs) are reshaping the landscape of robotic control by moving beyond the traditional tabula-rasa paradigm, where visuo-motor policies are trained from scratch. By leveraging powerful pre-trained foundation models from the domain of vision, researchers can harness rich, high-level abstractions to accelerate training and improve the generalization of robot policies across diverse environments. This repository compiles pioneering research on how PVRs are being utilized to enhance control learning and robotic performance without relying on task-specific or in-domain data.
 <!-- Ignore everything above this comment -->
 # Table of Contents
-- [Papers](#papers)
-   - [Generalization](#generalization)
-   - [Surveys](#surveys)
-   - [Temporal Perception](#temporal-perception)
+- [All Papers](#all-papers):
+   - [2022](#2022), [2023](#2023), [2024](#2024)
+- [Categories](#categories):
+   - [Generalization](#generalization-analysis)  
 
 
-# Papers
-
-
-## Generalization
-
-## Surveys
-
-## Temporal Perception 
-
+# All Papers
+## 2022
 1. **The Unsurprising Effectiveness of Pre-Trained Vision Models for Control**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2203.03580)]  
-   XX Mar 2022 (Date: TBA)
+   *Simone Parisi, Aravind Rajeswaran, Senthil Purushwalkam, Abhinav Gupta*  
+   [:page_facing_up:](https://arxiv.org/abs/2203.03580) [:globe_with_meridians:](https://sites.google.com/view/pvr-control) [:octocat:](https://github.com/sparisi/pvr_habitat) (ICML 2022)
 
 2. **Masked Visual Pre-training for Motor Control**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2203.06173)]  
-   XX Mar 2022 (Date: TBA)
+   *Tete Xiao, Ilija Radosavovic, Trevor Darrell, Jitendra Malik*  
+   [:page_facing_up:](https://arxiv.org/abs/2203.06173) [:globe_with_meridians:](https://tetexiao.com/projects/mvp) [:octocat:](https://github.com/ir413/mvp) (ArXiv PrePrint 2022) 
 
 3. **R3M: A Universal Visual Representation for Robot Manipulation**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2203.12601)]  
-   XX Mar 2022 (Date: TBA)
+   *Suraj Nair, Aravind Rajeswaran, Vikash Kumar, Chelsea Finn, Abhinav Gupta*  
+   [:page_facing_up:](https://arxiv.org/abs/2203.12601) [:globe_with_meridians:](https://sites.google.com/view/robot-r3m/) [:octocat:](https://github.com/facebookresearch/r3m) (CoRL 2022)
 
 4. **VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2210.00030)]  
-   XX Oct 2022 (Date: TBA)
+   *Yecheng Jason Ma, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, Vikash Kumar, Amy Zhang*  
+   [:page_facing_up:](https://arxiv.org/abs/2210.00030) [:globe_with_meridians:](https://sites.google.com/view/vip-rl) [:octocat:](https://github.com/facebookresearch/vip) (ICLR 2023)
 
 5. **Real-World Robot Learning with Masked Visual Pre-training**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2210.03109)]  
-   XX Oct 2022 (Date: TBA)
+   *Ilija Radosavovic, Tete Xiao, Stephen James, Pieter Abbeel, Jitendra Malik, Trevor Darrell*  
+   [:page_facing_up:]() [:globe_with_meridians:](https://tetexiao.com/projects/real-mvp) [:octocat:](https://github.com/ir413/mvp) (CoRL 2022)
 
 6. **On Pre-Training for Visuo-Motor Control: Revisiting a Learning-from-Scratch Baseline**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2212.05749)]  
-   XX Dec 2022 (Date: TBA)
+   *Nicklas Hansen, Zhecheng Yuan, Yanjie Ze, Tongzhou Mu, Aravind Rajeswaran, Hao Su, Huazhe Xu, Xiaolong Wang*  
+   [:page_facing_up:](https://arxiv.org/abs/2212.05749) [:octocat:](https://github.com/gemcollector/learning-from-scratch) (CoRL 2022 - Workshop on Pre-training Robot Learning)
 
+## 2023
 7. **Language-Driven Representation Learning for Robotics**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2302.12766)]  
-   XX Feb 2023 (Date: TBA)
-
+   *Siddharth Karamcheti, Suraj Nair, Annie S. Chen, Thomas Kollar, Chelsea Finn, Dorsa Sadigh, Percy Liang* 
+   [:page_facing_up:](https://arxiv.org/abs/2302.12766) [:globe_with_meridians:](https://sites.google.com/view/voltron-robotics) [:octocat:](https://github.com/siddk/voltron-evaluation) (RSS 2023)
+   
 8. **Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2303.18240)]  
-   XX Mar 2023 (Date: TBA)
+   *Arjun Majumdar, Karmesh Yadav, Sergio Arnaud, Yecheng Jason Ma, Claire Chen, Sneha Silwal, Aryan Jain, Vincent-Pierre Berges, Pieter Abbeel, Jitendra Malik, Dhruv Batra, Yixin Lin, Oleksandr Maksymets, Aravind Rajeswaran, Franziska Meier*  
+   [:page_facing_up:](https://arxiv.org/abs/2303.18240) [:globe_with_meridians:](https://eai-vc.github.io/) [:octocat:](https://github.com/facebookresearch/eai-vc) (NeurIPS 2023)
 
 9. **For Pre-Trained Vision Models in Motor Control, Not All Policy Learning Methods are Created Equal**  
-   *Anonymous*  
-   [[ArXiv](https://arxiv.org/abs/2304.04591v2)]  
-   XX Apr 2023 (Date: TBA)
+   *Yingdong Hu, Renhao Wang, Li Erran Li, Yang Gao*  
+   [:page_facing_up:](https://arxiv.org/abs/2304.04591v2) [:globe_with_meridians:](https://yingdong-hu.github.io/PVM-control/) [:octocat:](https://github.com/Yingdong-Hu/PVM-Robotics) (ICML 2023)
 
 10. **Lossless Adaptation of Pretrained Vision Models For Robotic Manipulation**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2304.06600)]  
-    XX Apr 2023 (Date: TBA)
+    *Mohit Sharma, Claudio Fantacci, Yuxiang Zhou, Skanda Koppula, Nicolas Heess, Jon Scholz, Yusuf Aytar*  
+    [:page_facing_up:](https://arxiv.org/abs/2304.06600) [:globe_with_meridians:](https://sites.google.com/view/robo-adapters/) (ICLR 2023)
 
 11. **LIV: Language-Image Representations and Rewards for Robotic Control**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2306.00958)]  
-    XX Jun 2023 (Date: TBA)
+    *Yecheng Jason Ma, William Liang, Vaidehi Som, Vikash Kumar, Amy Zhang, Osbert Bastani, Dinesh Jayaraman*  
+    [:page_facing_up:](https://arxiv.org/abs/2306.00958) [:globe_with_meridians:](https://penn-pal-lab.github.io/LIV/) [:octocat:](https://github.com/penn-pal-lab/LIV) (ICML 2023)
 
-12. **SpawnNet: Learning Generalizable Visuomotor Skills from Pre-trained Networks**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2307.03567)]  
-    XX Jul 2023 (Date: TBA)
-
-13. **Exploring Visual Pre-training for Robot Manipulation: Datasets, Models and Methods**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2308.03620)]  
-    XX Aug 2023 (Date: TBA)
-
-14. **What do we learn from a large-scale study of pre-trained visual representations in sim and real environments?**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2310.02219)]  
-    XX Oct 2023 (Date: TBA)
+12. **Exploring Visual Pre-training for Robot Manipulation: Datasets, Models and Methods**  
+    *Ya Jing, Xuelin Zhu, Xingbin Liu, Qie Sima, Taozheng Yang, Yunhai Feng, Tao Kong*  
+    [:page_facing_up:](https://arxiv.org/abs/2308.03620) [:globe_with_meridians:](https://explore-pretrain-robot.github.io/) (IROS 2023)
 
 15. **An Unbiased Look at Datasets for Visuo-Motor Pre-Training**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2310.09289)]  
-    XX Oct 2023 (Date: TBA)
+*Sudeep Dasari, Mohan Kumar Srirama, Unnat Jain, Abhinav Gupta*  
+[:page_facing_up:](https://arxiv.org/abs/2310.09289) [:globe_with_meridians:](https://data4robotics.github.io/) [:octocat:](https://github.com/SudeepDasari/data4robotics) (CoRL 2023)
 
 16. **Vision-Language Foundation Models as Effective Robot Imitators**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2311.01378)]  
-    XX Nov 2023 (Date: TBA)
+    *Xinghang Li, Minghuan Liu, Hanbo Zhang, Cunjun Yu, Jie Xu, Hongtao Wu, Chilam Cheang, Ya Jing, Weinan Zhang, Huaping Liu, Hang Li, Tao Kong*  
+    [:page_facing_up:](https://arxiv.org/abs/2311.01378) [:globe_with_meridians:](https://roboflamingo.github.io/) [:octocat:](https://github.com/RoboFlamingo/RoboFlamingo) (ICCV 2023)
+    
+## 2024
+13. **SpawnNet: Learning Generalizable Visuomotor Skills from Pre-trained Networks**  
+    *Xingyu Lin, John So, Sashwat Mahalingam, Fangchen Liu, Pieter Abbeel*  
+    [:page_facing_up:](https://arxiv.org/abs/2307.03567) [:globe_with_meridians:](https://xingyu-lin.github.io/spawnnet/) [:octocat:](https://github.com/johnrso/spawnnet) (ICRA 2024)
+
+14. **What do we learn from a large-scale study of pre-trained visual representations in sim and real environments?**  
+    *Sneha Silwal, Karmesh Yadav, Tingfan Wu, Jay Vakil, Arjun Majumdar, Sergio Arnaud, Claire Chen, Vincent-Pierre Berges, Dhruv Batra, Aravind Rajeswaran, Mrinal Kalakrishnan, Franziska Meier, Oleksandr Maksymets*  
+    [:page_facing_up:](https://arxiv.org/abs/2310.02219) [:globe_with_meridians:](https://pvrs-sim2real.github.io/) (ICRA 2024)
 
 17. **What Makes Pre-Trained Visual Representations Successful for Robust Manipulation?**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2312.12444)]  
+    *Kaylee Burns, Zach Witzel, Jubayer Ibn Hamid, Tianhe Yu, Chelsea Finn, Karol Hausman*  
+    [:page_facing_up:](https://arxiv.org/abs/2312.12444) [:globe_with_meridians:](https://kayburns.github.io/segmentingfeatures/) [:octocat:](https://github.com/stanford-iris-lab/segmenting_feats/tree/eval) 
     XX Dec 2023 (Date: TBA)
 
 18. **Spatiotemporal Predictive Pre-training for Robotic Motor Control**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2403.05304)]  
-    XX Mar 2024 (Date: TBA)
+    *Jiange Yang, Bei Liu, Jianlong Fu, Bocheng Pan, Gangshan Wu, Limin Wang*  
+    [:page_facing_up:](https://arxiv.org/abs/2403.05304) (ArXiv Preprint 2024)
 
 19. **Pre-trained Text-to-Image Diffusion Models Are Versatile Representation Learners for Control**  
-    *Anonymous*  
-    [[ArXiv](https://arxiv.org/abs/2405.05852)]  
-    XX May 2024 (Date: TBA)
+    *Gunshi Gupta, Karmesh Yadav, Yarin Gal, Dhruv Batra, Zsolt Kira, Cong Lu, Tim G. J. Rudner*  
+    [:page_facing_up:](https://arxiv.org/abs/2405.05852) [:octocat:](https://github.com/ykarmesh/stable-control-representations) (ArXiv Preprint 2024)
 
-# Benchmarks
+# Categories
+## Generalization Evaluation
 
+## Temporal Perception
+
+## Pre-Training Dataset Analysis
+
+## Language
+7. **Language-Driven Representation Learning for Robotics**  
+   *Siddharth Karamcheti, Suraj Nair, Annie S. Chen, Thomas Kollar, Chelsea Finn, Dorsa Sadigh, Percy Liang* 
+   [:page_facing_up:](https://arxiv.org/abs/2302.12766) [:globe_with_meridians:](https://sites.google.com/view/voltron-robotics) [:octocat:](https://github.com/siddk/voltron-evaluation) (RSS 2023)
+   
+## Benchmarks
+8. **Where are we in the search for an Artificial Visual Cortex for Embodied Intelligence?**  
+   *Arjun Majumdar, Karmesh Yadav, Sergio Arnaud, Yecheng Jason Ma, Claire Chen, Sneha Silwal, Aryan Jain, Vincent-Pierre Berges, Pieter Abbeel, Jitendra Malik, Dhruv Batra, Yixin Lin, Oleksandr Maksymets, Aravind Rajeswaran, Franziska Meier*  
+   [:page_facing_up:](https://arxiv.org/abs/2303.18240) [:globe_with_meridians:](https://eai-vc.github.io/) [:octocat:](https://github.com/facebookresearch/eai-vc) (NeurIPS 2023)
+
+7. **Language-Driven Representation Learning for Robotics**  
+   *Siddharth Karamcheti, Suraj Nair, Annie S. Chen, Thomas Kollar, Chelsea Finn, Dorsa Sadigh, Percy Liang* 
+   [:page_facing_up:](https://arxiv.org/abs/2302.12766) [:globe_with_meridians:](https://sites.google.com/view/voltron-robotics) [:octocat:](https://github.com/siddk/voltron-evaluation) (RSS 2023)
 
 # Citing Awesome PVRobotics
 ```
 @misc{tsagkas2024awesome,
   author={Tsagkas, Nikolaos},
-  title={Awesome Pre-Trained Vision Representations for Robot Learning and COntrol},
+  title={Awesome Pre-Trained Visual Representations for Motor Control and Robot Learning},
   howpublished={\url{https://github.com/tsagkas/Awesome-PVRobotics}},
   year={2024}
 }
