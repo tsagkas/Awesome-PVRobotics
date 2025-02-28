@@ -12,33 +12,49 @@ Feel free to [cite](#citing-pvrobotics) and/or [contribute](https://github.com/t
 <!-- Ignore everything above this comment -->
 # Table of Contents
 - [All Papers](#all-papers):
-   - [2022](#2022), [2023](#2023), [2024](#2024).
+   - [2022](#2022), [2023](#2023), [2024](#2024), [2025](#2025).
 - [Other Useful Sources](#other-useful-sources):
   - [Benchmarks](#benchmarks), [Fine-Tuning](#fine-tuning--training-from-scratch), [Language Integration](#language-integration).
  
 
 
 # All Papers
-## 2022
-1. **The Unsurprising Effectiveness of Pre-Trained Vision Models for Control**  
-   *Simone Parisi, Aravind Rajeswaran, Senthil Purushwalkam, Abhinav Gupta*  
-   [:page_facing_up:](https://arxiv.org/abs/2203.03580) [:globe_with_meridians:](https://sites.google.com/view/pvr-control) [:octocat:](https://github.com/sparisi/pvr_habitat) (ICML 2022)
+## 2025
+1. **When Pre-trained Visual Representations Fall Short: Limitations in Visuo-Motor Robot Learning**  
+    *Nikolaos Tsagkas, Andreas Sochopoulos, Duolikun Danier, Chris Xiaoxuan Lu, Oisin Mac Aodha*  
+    [:page_facing_up:](https://arxiv.org/abs/2502.03270) [:globe_with_meridians:](https://tsagkas.github.io/pvrobo/) [:octocat:](https://github.com/tsagkas/pvrobo) (ArXiv PrePrint 2025)
 
-2. **Masked Visual Pre-training for Motor Control**  
-   *Tete Xiao, Ilija Radosavovic, Trevor Darrell, Jitendra Malik*  
-   [:page_facing_up:](https://arxiv.org/abs/2203.06173) [:globe_with_meridians:](https://tetexiao.com/projects/mvp) [:octocat:](https://github.com/ir413/mvp) (ArXiv PrePrint 2022) 
 
-3. **R3M: A Universal Visual Representation for Robot Manipulation**  
-   *Suraj Nair, Aravind Rajeswaran, Vikash Kumar, Chelsea Finn, Abhinav Gupta*  
-   [:page_facing_up:](https://arxiv.org/abs/2203.12601) [:globe_with_meridians:](https://sites.google.com/view/robot-r3m/) [:octocat:](https://github.com/facebookresearch/r3m) (CoRL 2022)
+## 2024
+1. **SpawnNet: Learning Generalizable Visuomotor Skills from Pre-trained Networks**  
+    *Xingyu Lin, John So, Sashwat Mahalingam, Fangchen Liu, Pieter Abbeel*  
+    [:page_facing_up:](https://arxiv.org/abs/2307.03567) [:globe_with_meridians:](https://xingyu-lin.github.io/spawnnet/) [:octocat:](https://github.com/johnrso/spawnnet) (ICRA 2024)
 
-4. **VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training**  
-   *Yecheng Jason Ma, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, Vikash Kumar, Amy Zhang*  
-   [:page_facing_up:](https://arxiv.org/abs/2210.00030) [:globe_with_meridians:](https://sites.google.com/view/vip-rl) [:octocat:](https://github.com/facebookresearch/vip) (ICLR 2023)
+2. **What do we learn from a large-scale study of pre-trained visual representations in sim and real environments?**  
+    *Sneha Silwal, Karmesh Yadav, Tingfan Wu, Jay Vakil, Arjun Majumdar, Sergio Arnaud, Claire Chen, Vincent-Pierre Berges, Dhruv Batra, Aravind Rajeswaran, Mrinal Kalakrishnan, Franziska Meier, Oleksandr Maksymets*  
+    [:page_facing_up:](https://arxiv.org/abs/2310.02219) [:globe_with_meridians:](https://pvrs-sim2real.github.io/) (ICRA 2024)
 
-5. **Real-World Robot Learning with Masked Visual Pre-training**  
-   *Ilija Radosavovic, Tete Xiao, Stephen James, Pieter Abbeel, Jitendra Malik, Trevor Darrell*  
-   [:page_facing_up:]() [:globe_with_meridians:](https://tetexiao.com/projects/real-mvp) [:octocat:](https://github.com/ir413/mvp) (CoRL 2022)
+3. **Decomposing the Generalization Gap in Imitation Learning for Visual Robotic Manipulation**  
+    *Annie Xie, Lisa Lee, Ted Xiao, Chelsea Finn*  
+    [:page_facing_up:](https://arxiv.org/abs/2307.03659) 
+    [:globe_with_meridians:](https://sites.google.com/view/generalization-gap)[:octocat:](https://github.com/RLAgent/factor-world) (ICRA 2024) 
+
+
+4. **Spatiotemporal Predictive Pre-training for Robotic Motor Control**  
+    *Jiange Yang, Bei Liu, Jianlong Fu, Bocheng Pan, Gangshan Wu, Limin Wang*  
+    [:page_facing_up:](https://arxiv.org/abs/2403.05304) (ArXiv Preprint 2024)
+
+5. **Pre-trained Text-to-Image Diffusion Models Are Versatile Representation Learners for Control**  
+    *Gunshi Gupta, Karmesh Yadav, Yarin Gal, Dhruv Batra, Zsolt Kira, Cong Lu, Tim G. J. Rudner*  
+    [:page_facing_up:](https://arxiv.org/abs/2405.05852) [:octocat:](https://github.com/ykarmesh/stable-control-representations) (NeurIPS 2024)
+
+6. **Theia: Distilling Diverse Vision Foundation Models for Robot Learning**
+    *Jinghuan Shang, Karl Schmeckpeper, Brandon B. May, Maria Vittoria Minniti, Tarik Kelestemur, David Watkins, Laura Herlant*  
+    [:page_facing_up:](https://arxiv.org/abs/2405.05852) [:globe_with_meridians:](https://theia.theaiinstitute.com/) [:octocat:](https://github.com/bdaiinstitute/theia) (CoRL 2024)
+
+7. **Adapting Pretrained ViTs with Convolution Injector for Visuo-Motor Control**
+    *Dongyoon Hwang, Byungkun Lee, Hojoon Lee, Hyunseung Kim, Jaegul Choo*  
+    [:page_facing_up:](https://arxiv.org/abs/2406.06072) [:globe_with_meridians:](https://godnpeter.github.io/CoIn/) [:octocat:](https://github.com/dojeon-ai/CoIn) (ICML 2024)
 
 
 ## 2023
@@ -64,32 +80,30 @@ Feel free to [cite](#citing-pvrobotics) and/or [contribute](https://github.com/t
     [:page_facing_up:](https://arxiv.org/abs/2312.12444) [:globe_with_meridians:](https://kayburns.github.io/segmentingfeatures/) [:octocat:](https://github.com/stanford-iris-lab/segmenting_feats/tree/eval) 
     (ArXiv Preprint 2023)
 
-## 2024
-1. **SpawnNet: Learning Generalizable Visuomotor Skills from Pre-trained Networks**  
-    *Xingyu Lin, John So, Sashwat Mahalingam, Fangchen Liu, Pieter Abbeel*  
-    [:page_facing_up:](https://arxiv.org/abs/2307.03567) [:globe_with_meridians:](https://xingyu-lin.github.io/spawnnet/) [:octocat:](https://github.com/johnrso/spawnnet) (ICRA 2024)
-
-2. **What do we learn from a large-scale study of pre-trained visual representations in sim and real environments?**  
-    *Sneha Silwal, Karmesh Yadav, Tingfan Wu, Jay Vakil, Arjun Majumdar, Sergio Arnaud, Claire Chen, Vincent-Pierre Berges, Dhruv Batra, Aravind Rajeswaran, Mrinal Kalakrishnan, Franziska Meier, Oleksandr Maksymets*  
-    [:page_facing_up:](https://arxiv.org/abs/2310.02219) [:globe_with_meridians:](https://pvrs-sim2real.github.io/) (ICRA 2024)
-
-3. **Decomposing the Generalization Gap in Imitation Learning for Visual Robotic Manipulation**  
-    *Annie Xie, Lisa Lee, Ted Xiao, Chelsea Finn*  
-    [:page_facing_up:](https://arxiv.org/abs/2307.03659) 
-    [:globe_with_meridians:](https://sites.google.com/view/generalization-gap)[:octocat:](https://github.com/RLAgent/factor-world) (ICRA 2024) 
 
 
-4. **Spatiotemporal Predictive Pre-training for Robotic Motor Control**  
-    *Jiange Yang, Bei Liu, Jianlong Fu, Bocheng Pan, Gangshan Wu, Limin Wang*  
-    [:page_facing_up:](https://arxiv.org/abs/2403.05304) (ArXiv Preprint 2024)
+## 2022
+1. **The Unsurprising Effectiveness of Pre-Trained Vision Models for Control**  
+   *Simone Parisi, Aravind Rajeswaran, Senthil Purushwalkam, Abhinav Gupta*  
+   [:page_facing_up:](https://arxiv.org/abs/2203.03580) [:globe_with_meridians:](https://sites.google.com/view/pvr-control) [:octocat:](https://github.com/sparisi/pvr_habitat) (ICML 2022)
 
-5. **Pre-trained Text-to-Image Diffusion Models Are Versatile Representation Learners for Control**  
-    *Gunshi Gupta, Karmesh Yadav, Yarin Gal, Dhruv Batra, Zsolt Kira, Cong Lu, Tim G. J. Rudner*  
-    [:page_facing_up:](https://arxiv.org/abs/2405.05852) [:octocat:](https://github.com/ykarmesh/stable-control-representations) (ArXiv Preprint 2024)
+2. **Masked Visual Pre-training for Motor Control**  
+   *Tete Xiao, Ilija Radosavovic, Trevor Darrell, Jitendra Malik*  
+   [:page_facing_up:](https://arxiv.org/abs/2203.06173) [:globe_with_meridians:](https://tetexiao.com/projects/mvp) [:octocat:](https://github.com/ir413/mvp) (ArXiv PrePrint 2022) 
 
-6. **Theia: Distilling Diverse Vision Foundation Models for Robot Learning**
-    *Jinghuan Shang, Karl Schmeckpeper, Brandon B. May, Maria Vittoria Minniti, Tarik Kelestemur, David Watkins, Laura Herlant*  
-    [:page_facing_up:](https://arxiv.org/abs/2405.05852) [:globe_with_meridians:](https://theia.theaiinstitute.com/) [:octocat:](https://github.com/bdaiinstitute/theia) (ArXiv Preprint 2024)
+3. **R3M: A Universal Visual Representation for Robot Manipulation**  
+   *Suraj Nair, Aravind Rajeswaran, Vikash Kumar, Chelsea Finn, Abhinav Gupta*  
+   [:page_facing_up:](https://arxiv.org/abs/2203.12601) [:globe_with_meridians:](https://sites.google.com/view/robot-r3m/) [:octocat:](https://github.com/facebookresearch/r3m) (CoRL 2022)
+
+4. **VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training**  
+   *Yecheng Jason Ma, Shagun Sodhani, Dinesh Jayaraman, Osbert Bastani, Vikash Kumar, Amy Zhang*  
+   [:page_facing_up:](https://arxiv.org/abs/2210.00030) [:globe_with_meridians:](https://sites.google.com/view/vip-rl) [:octocat:](https://github.com/facebookresearch/vip) (ICLR 2023)
+
+5. **Real-World Robot Learning with Masked Visual Pre-training**  
+   *Ilija Radosavovic, Tete Xiao, Stephen James, Pieter Abbeel, Jitendra Malik, Trevor Darrell*  
+   [:page_facing_up:]() [:globe_with_meridians:](https://tetexiao.com/projects/real-mvp) [:octocat:](https://github.com/ir413/mvp) (CoRL 2022)
+
+
 
 
 # Other Useful Sources
